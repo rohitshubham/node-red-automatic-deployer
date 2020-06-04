@@ -1,0 +1,12 @@
+{
+    "dependencies": {
+        "node-red": "1.0.6"
+    },
+    "main": "node_modules/node-red/red/red.js",
+    "scripts": {
+        "start": "node $NODE_OPTIONS node_modules/node-red/red.js $FLOWS"
+    },
+    "engines": {
+        "node": ">=10"
+    }
+}

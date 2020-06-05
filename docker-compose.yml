@@ -2,6 +2,7 @@ version: '3'
 services:
     node-red:
         build: node-red/.
+        # Ports disabled for internal deployment
         # ports:
         #     - "1880:1880"
     custom-flow:

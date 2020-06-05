@@ -1,5 +1,7 @@
 import requests
 import json
+import sys
+sys.stdout.flush()
 
 def load_file():
     data = {}
